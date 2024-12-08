@@ -48,19 +48,19 @@ public class SimpleLinkedList {
      * uses two pointers: slow and fast, where fast moves twice as quickly
      */
     public Node findMiddle() {
-        if (head == null) {
-            return null;
+        Node result = null;
+        if (head != null) {
+            Node slow = head;
+            Node fast = head;
+
+            while (fast != null && fast.next != null) {
+                slow = slow.next;
+                fast = fast.next.next;
+            }
+
+            result = slow;
         }
-
-        Node slow = head;
-        Node fast = head;
-
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-        }
-
-        return slow;
+        return result;
     }
 
     /**
@@ -68,10 +68,8 @@ public class SimpleLinkedList {
      * iteratively adjusts the next pointers of the nodes to invert the list
      */
     public SimpleLinkedList invert() {
-        SimpleLinkedList invertedList = new SimpleLinkedList();
-        Node current = head;
         Node prev = null;
-
+        Node current = head;
         while (current != null) {
             Node nextNode = current.next;
             current.next = prev;
@@ -79,6 +77,7 @@ public class SimpleLinkedList {
             current = nextNode;
         }
 
+        SimpleLinkedList invertedList = new SimpleLinkedList();
         invertedList.head = prev;
         return invertedList;
     }
