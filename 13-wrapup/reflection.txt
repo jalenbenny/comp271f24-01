@@ -11,4 +11,4 @@ I want to mention that I have a habit of being redundant in code and my efficien
 I found myself in a strange area between overcompensating in code and not compensating enough, hence my lack of justification for my imports and repetitive methods for our TrainLine projects. 
 Right now, I believe this is my biggest issue as a programmer (along with not asking needed questions/engaging when even slightly confused) 
 and I was glad to mitigate it towards the end of the course, but there is still room for improvement. It was a learning opportunity-filled experience that I thank you for,
-  along with this opportunity to reflect.  (Ben Flowers)
+along with this opportunity to reflect.  (Ben Flowers)
