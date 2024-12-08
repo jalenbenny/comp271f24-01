@@ -1,0 +1,14 @@
+I propose a B for my course grade. I was able to watch myself improve in not only understanding but writing java,
+being able to draw conclusions based on features in code and grasping and utilizing data structures.
+My midterm grade was different from what I am proposing for my final course grade due to some blatant violations of the programmer’s pact, 
+mainly excluding documentation or featuring several return statements for one method,
+as well as unauthorized imports. However, these issues did not persist post-midterm along with my code compiling, 
+which wasn’t always the case in the first half of the semester. This was due to me getting familiarized with the material outside of class,
+reviewing some of the O’Reilly material but also external sources (sites like stackoverflow, YouTube videos also helped).
+As far as attendance, I was present in every class with the exception of the optional class before Thanksgiving break.
+I missed no assignments and was able to see consistency in myself as I got comfortable in my seat and my routine in your class. 
+I want to mention that I have a habit of being redundant in code and my efficiency is an issue that I need to address in the future.
+I found myself in a strange area between overcompensating in code and not compensating enough, hence my lack of justification for my imports and repetitive methods for our TrainLine projects. 
+Right now, I believe this is my biggest issue as a programmer (along with not asking needed questions/engaging when even slightly confused) 
+and I was glad to mitigate it towards the end of the course, but there is still room for improvement. It was a learning opportunity-filled experience that I thank you for,
+  along with this opportunity to reflect.  (Ben Flowers)
